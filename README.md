@@ -1,0 +1,1 @@
+Para probar la función de sesion.php, hay que meterse en licalhost/pagina/sesion.php. Aquí aparecerá un cuestionario en el cual hay que escribir nuestro usuario, si no, creamos uno en otro cuestionario en localhost/pagina/nuevo.php, donde crearemos un nuevo usuario en la base de datos
