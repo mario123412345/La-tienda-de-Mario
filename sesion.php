@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color: url('https://cutewallpaper.org/23/america-nature-wallpaper-hd/3013127654.jpg');
-        }
+        
         .sesion{
             text-align: center;
             border: 2px;
