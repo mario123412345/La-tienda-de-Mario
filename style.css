@@ -537,4 +537,5 @@ a:active{
 }
 .contacto{
     text-align: center;
+    display: inline-block;
 }
