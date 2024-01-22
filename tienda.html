@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js.js">
+</head>
+<body>
+    <a href="index.html">
+        <h1>Volver</h1>
+    </a>
+    <div class="principio">
+        <h1>Bienvenido a nuestra tienda</h1>
+    </div>
+    <div class="tienda">
+        <section class="cosas" id="productos">
+            
+            <div class="producto" id="producto1">
+                <img src="https://caracoltv.brightspotcdn.com/dims4/default/fa8e0bf/2147483647/strip/true/crop/1024x683+0+0/resize/840x560!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2Fd3%2F52%2Fa91ed3784f41bec52e8d298e1eb4%2F2.2.%20Casco%20Haas%20Magnussen.png" width="10%">
+                <p>Casco Rojo</p>
+                <p>15.00€</p>
+                <p><button onclick="agregarAlCarrito('Casco Rojo',15.00)">Añadir al carrito</button>
+                </p>
+            </div>
+            <div class="producto" id="producto2">
+                <img src="https://i.pinimg.com/originals/ac/c3/29/acc3293969aa329a9850c40ebc630fe2.png" width="10%">
+                <p>Casco Azul</p>
+                <p>15.00€</p>
+                <p><button onclick="agregarAlCarrito('Casco Azul',15.00)">Añadir al carrito</button>
+                </p>
+            </div>
+            <div class="producto" id="producto3">
+                <img src="https://www.mundodeportivo.com/files/article_gallery_microformat/uploads/2016/03/17/60e7752c270d0.png" width="10%">
+                <p>Casco Verde</p>
+                <p>15.00€</p>
+                <p><button onclick="agregarAlCarrito('Casco Verde',15.00)">Añadir al carrito</button>
+                </p>
+            </div>
+            <div class="producto" id="producto4">
+                <img src="https://e00-especiales-marca.uecdn.es/motor/images/formula1/escuderias/2022/v2/mclaren/casco-norris.png" width="8%">
+                <p>Casco amarillo</p>
+                <p>15.00€</p>
+                <p><button onclick="agregarAlCarrito('Casco amarillo',20.00)">Añadir al carrito</button>
+                </p>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="https://www.ckcautosport.es/1992392-large_default/guantes-corsa-pro-rojo-12.jpg" width="10%">
+                <p>Guantes rojos y blancos pack</p>
+                <p>15.98€</p>
+                <p><button onclick="agregarAlCarrito('Guantes rojos y blancos pack',25.98)">Añadir al carrito</button>
+                </p>
+            </div>
+            <div class="producto" id="producto6">
+                <img src="https://ae01.alicdn.com/kf/S8dc2431c97c144a5ae84d57981bd13a9B/Traje-de-carreras-de-Interior-para-hombre-y-mujer-conjunto-de-ropa-de-entrenamiento-de-Motocross.jpg" width="10%">
+                <p>Traje especial carreras</p>
+                <p>120.99€</p>
+                <p><button onclick="agregarAlCarrito('Traje especial carreras',120.99)">Añadir al carrito</button>
+                </p>
+            </div>
+        </section>
+        <section class="carrito" id="carrito">
+            <h2>Carrito</h2>
+            <div id="itemsCarrito"></div>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            <button onclick="fincompra()">Finalizar compra</button>
+        </section>
+    </div>
+    <a href="http://localhost/pagina/php.php">
+        <div>
+            <h3>Mira nuestros choches</h3>
+        </div>
+    </a>
+    <section class="cambiarfondo">
+        <h1>Cambiar fondo</h1>
+        <button onclick="cambiarFondo('url(' + 'https:cutewallpaper.org/23/america-nature-wallpaper-hd/3013127654.jpg' + ')')">Bosque</button>
+        <button onclick="cambiarFondo('url(' + 'https:i.pinimg.com/originals/9d/de/91/9dde91520e762f7db481ba3e03927322.jpg' + ')')">Precipicio</button>
+        <button onclick="cambiarFondo('url(' + 'https:wallpapercave.com/wp/wp3935830.jpg' + ')')">Montaña</button>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
