@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        body{
+            background-image: url('https://cutewallpaper.org/23/america-nature-wallpaper-hd/3013127654.jpg');
+        }
+        a:hover{
+            color:rgb(3, 128, 42);
+
+        }
+        a:active{
+            color:rgb(59, 59, 59);
+
+        }
         .sesion{
             text-align: center;
-            border: 2px;
         }
-        
-        
     </style>
 
 </head>
@@ -57,6 +64,7 @@
                     <a href="http://localhost/pagina/nuevo.php">
                         <h2>Crea una</h2>
                     </a>
+                   
             </div>
         </div>
     

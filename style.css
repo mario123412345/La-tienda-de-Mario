@@ -466,13 +466,7 @@ a:active{
     height: 200px;
     border: 1px;
 }
-.sesion{
-    text-align: center;
-    display: block;
-}
-.sesion input{
-    width: 100%;
-}
+
 .principio{
     display: block;
     text-align: center;

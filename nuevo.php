@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+        <style>
+        body{
+            background-image: url('https://cutewallpaper.org/23/america-nature-wallpaper-hd/3013127654.jpg');
+        }
+        a:hover{
+            color:rgb(3, 128, 42);
+
+        }
+        a:active{
+            color:rgb(59, 59, 59);
+
+        }
         .sesion{
             text-align: center;
-            border: 1px;
         }
-       
     </style>
 </head>
 <body>
@@ -47,6 +56,7 @@
             <input type="text" name="contraseña" required><br>
             <input type="submit" value="Crear">
         </form>
+        
     </div>
 </body>
 </html>

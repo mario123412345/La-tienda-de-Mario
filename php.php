@@ -9,12 +9,28 @@
             border-collapse: collapse;
             margin-top: 20px;
             text-align: center;
+            background-color: white;
         }
+        body{
+            background-image: url('https://cutewallpaper.org/23/america-nature-wallpaper-hd/3013127654.jpg');
+        }
+        a:hover{
+            color:rgb(3, 128, 42);
+
+        }
+        a:active{
+            color:rgb(59, 59, 59);
+
+        }
+        
     
     </style>
 </head>
 
 <body>
+        <a href="index.html">
+            <h1>Volver</h1>
+        </a>
     <?php
         $mysqli= new mysqli("localhost","root","mario1234@","vehiculos",3306);
         if ($mysqli->connect_errno){
