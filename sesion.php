@@ -45,7 +45,7 @@
                     echo "Has iniciado sesión";
                   }
                 } else {
-                  echo "No existes";
+                  echo '<p class="sesion">No existes</p>';
                 }
                 
             };
