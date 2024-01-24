@@ -525,11 +525,4 @@ a:active{
 .cambiarfondo{
     text-align: center;
 }
-.contacto{
-    text-align: center;
-    display: flex;
-}
-.contacto{
-    text-align: center;
-    display: inline-block;
-}
+
