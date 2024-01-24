@@ -42,7 +42,7 @@
 
                 if ($result->num_rows > 0) {
                   while($row = $result->fetch_assoc()) {
-                    echo "Has iniciado sesión";
+                    echo '<p class="sesion">Has iniciado sesión</p>';
                   }
                 } else {
                   echo '<p class="sesion">No existes</p>';
