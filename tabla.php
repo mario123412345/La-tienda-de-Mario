@@ -46,8 +46,8 @@
             echo("<td>".$row['correo']."</td>");
             echo("<td>".$row['contraseña']."</td>");
             echo("<td>
-                <a class='button' href='editar.php?nombre=".urlencode($row['id'])."'>Editar</a>
-                <a class='delete-button' href='borrar.php?nombre=".urlencode($row['id'])."'>Borrar</a>
+                <a class='button' href='editar.php?id=".urlencode($row['id'])."'>Editar</a>
+                <a class='delete-button' href='borrar.php?id=".urlencode($row['id'])."'>Borrar</a>
                 </td>");
 
             echo "</td>";
