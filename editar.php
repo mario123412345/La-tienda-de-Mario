@@ -13,6 +13,7 @@
         echo "Fallo (".$mysqli->connect_errno.")".$mysqli->connect_error;
     }
     if (isset($_GET['id'])){
+        $id = urldecode($_GET['id']);
         if ($_SERVER["REQUEST_METHOD"]=="POST"){
             $usuario=$_POST['usuario'];
             $correo=$_POST['correo'];
