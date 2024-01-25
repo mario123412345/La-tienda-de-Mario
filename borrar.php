@@ -8,13 +8,13 @@
 <body>
     <?php
     $nombre=$_GET['nombre'];
-    $mysqli=new mysqli("localhost", "root", "mario1234@", "musica", 3306);
+    $mysqli=new mysqli("localhost", "root", "mario1234@", "vehiculos", 3306);
     if ($mysqli->connect_errno){
         echo "Fallo(".$mysqli->connect_errno.")".$mysqli->connect_error;
     }
-    $query="DELETE FROM músico WHERE Nombre_único='".$nombre."'";
+    $query="DELETE FROM personas WHERE usuario='".$nombre."'";
     $mysqli->query($query);
-    header("Location: Intermedia3.php");
+    header("Location: tabla.php");
     exit();
     ?>
 </body>

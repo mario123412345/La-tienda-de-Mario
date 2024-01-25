@@ -64,7 +64,11 @@
                     <a href="http://localhost/pagina/nuevo.php">
                         <h2>Crea una</h2>
                     </a>
-                   
+                   <div>
+                        <a href="http://localhost/pagina/tabla.php">
+                            <h3>Visualizar usuarios</h3>
+                        </a>
+                   </div>
             </div>
         </div>
     
