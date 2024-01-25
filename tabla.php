@@ -19,6 +19,7 @@
         echo "<table>";
         echo "
         <tr>
+            <th>ID</th>
             <th>Usuario</th>
             <th>Correo</th>
             <th>Contraseña</th>
