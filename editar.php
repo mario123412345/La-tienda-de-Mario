@@ -17,11 +17,11 @@
             $usuario=$_POST['usuario'];
             $correo=$_POST['correo'];
             $contraseña=$_POST['contraseña'];
-            $query="UPDATE personas SET 
-                      usuario='$nuevoNombre',
-                      correo='$nuevocorreo',
-                      contraseña='$nuevacontraseña',
-                      WHERE id='$id'";
+            $query = "UPDATE personas SET 
+              usuario='$usuario',
+              correo='$correo',
+              contraseña='$contraseña'
+              WHERE id='$id'";
             if ($mysqli->query($query)){
                 header("Location:tabla.php");
                 exit();
@@ -36,9 +36,9 @@
                 $row=$result->fetch_assoc();
                 echo "<form action='' method='post'>";
                 echo "<input type='hidden' name='usuario' value='".$row['usuario']."'>";
-                echo "Nombre: <input type='text' name='usuario' value='".$row['usuario']."'><br>";
-                echo "Fecha de nacimiento: <input type='text' name='correo' value='".$row['correo']."'><br>";
-                echo "Fecha de muerte: <input type='text' name='contraseña' value='".$row['contraseña']."'><br>";
+                echo "Usuario: <input type='text' name='usuario' value='".$row['usuario']."'><br>";
+                echo "Correo: <input type='text' name='correo' value='".$row['correo']."'><br>";
+                echo "Contraseña: <input type='text' name='contraseña' value='".$row['contraseña']."'><br>";
                 echo "<input type='submit' value='Guardar cambios'>";
                 echo "</form>";
             }else{
