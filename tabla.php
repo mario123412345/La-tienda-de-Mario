@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            border-collapse:collapse;
+            width:100%;
+        }
+        table td{
+            border:1px solid cadetblue;
+            text-align:center;
+            padding: 1.5rem;
+        }
+        .button{
+            border-radius: .5rem;
+            color:blue;
+            padding:1rem;
+        }
+    </style>
 </head>
 <body>
 <?php
-        echo "Manzana";
         $mysqli=new mysqli("localhost","root","mario1234@","vehiculos",3306);
         if($mysqli->connect_errno){
             echo "Fallo(".$mysql->connect_errno.")".$mysqli->connect_error;
         }
-        echo "coche";
         $query='select*from personas';
         $result=$mysqli->query($query);
         $num_results=$result->num_rows;

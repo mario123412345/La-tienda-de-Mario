@@ -7,12 +7,12 @@
 </head>
 <body>
     <?php
-    $nombre=$_GET['nombre'];
+    $id=$_GET['id'];
     $mysqli=new mysqli("localhost", "root", "mario1234@", "vehiculos", 3306);
     if ($mysqli->connect_errno){
         echo "Fallo(".$mysqli->connect_errno.")".$mysqli->connect_error;
     }
-    $query="DELETE FROM personas WHERE usuario='".$nombre."'";
+    $query="DELETE FROM personas WHERE id='".$id."'";
     $mysqli->query($query);
     header("Location: tabla.php");
     exit();
