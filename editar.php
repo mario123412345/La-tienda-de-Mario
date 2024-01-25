@@ -7,7 +7,6 @@
 </head>
 <body>
     <?php
-    echo "sandia";
     $mysqli=new mysqli("localhost","root","mario1234@","vehiculos",3306);
     if ($mysqli->connect_errno){
         echo "Fallo (".$mysqli->connect_errno.")".$mysqli->connect_error;
@@ -49,7 +48,6 @@
     }else{
         echo "Haz tus cambios";
     }
-    echo "huesp";
     ?>
 </body>
 </html>
